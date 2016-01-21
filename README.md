@@ -48,7 +48,7 @@ $ chmod a+x push_images.sh
 
 ### 查看仓库信息
 ```java
-    curl http://192.168.7.26:5000/v1/search
+    curl http://127.0.0.1:5000/v1/search
     
     {"num_results": 7, "query": "", "results": [{"description": "", "name": "library/miaxis_j2ee"}, {"description": "", "name": "library/tomcat"}, {"description": "", "name": "library/ubuntu"}, {"description": "", "name": "library/ubuntu_office"}, {"description": "", "name": "library/desktop_ubu"}, {"description": "", "name": "dockerfile/ubuntu"}, {"description": "", "name": "library/test"}]}
 ```
